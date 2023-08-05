@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment2.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Books</h1>
+    <h2>The way to another world...</h2>
+    <div class="division1">
+        <p>Books  contribute to everyones lives of everyone in one way or another. The impact left on us by books can begin from uplifting our mood to making us proficient in a certain field. The books are a medium through which writers can reach a larger audience, and readers can get a peek into the thoughts of writer.</p>
+    </div>
+    <div class="division2">
+        <img src="https://media.istockphoto.com/id/1453081662/photo/bookstore-in-the-city-center-of-lisbon.jpg?s=2048x2048&w=is&k=20&c=y-1oauy6OC5WKHqhr_2CfHTGk67hP0QMxGauv73DXT8=" alt="books" width="523">
+    </div>
+    <section >
+        
+  <h2>The Alchemist</h2>
+  <p>
+    The Alchemist (Portuguese: O Alquimista) is a novel by Brazilian author Paulo Coelho which was first published in 1988. Originally written in Portuguese, it became a widely translated international bestseller.[1][2] An allegorical novel, The Alchemist follows a young Andalusian shepherd in his journey to the pyramids of Egypt, after having a recurring dream of finding a treasure there.
+  </p>
+  <p>
+    Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts, recognizing opportunity and learning to read the omens strewn along life's path, and, most importantly, following our dreams.
+  </p>
+
+</section>
+    
+        <h3>Your Favourite Book</h3>
+        <ul>
+            <li>The Alchemist</li>
+            <li>A Christmas Carol</li>
+            <li>Ikigai</li>
+            <li>Beloved</li>
+        </ul>
+        
+</body>
+</html>
+CSS file
+body
+{
+    background-color: lightsteelblue;
+}
+.division1
+{
+    background-color: blueviolet;
+    color: rgb(93, 23, 19);
+    padding: 20px;
+    width: 700px;
+    border-radius: 15px;
+}
+.division2
+{
+    background-color: lightpink;
+    color: rgb(233, 216, 215);
+    padding: 20px;
+    width: 700px;
+    border-radius: 15px;
+    
+}
+img {
+    border: 5px solid #cfbbbb;
+  }
+h1{
+    font-family: cursive ;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+section
+{   
+    background: papayawhip;
+           padding: 20px;
+           width: 500px;
+           line-height: 1.7em;
+           border-radius: 15px;
+           
+           border: solid black 5px  ;
+}
+
+ul {
+    list-style-type: square;
+
+  }
+  li:hover{
+    background-color:cyan;
+    width: max-content; 
+    cursor: pointer;
+}
+  
